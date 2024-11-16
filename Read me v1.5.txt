@@ -1,0 +1,29 @@
+Version 1.3
+
+1) now you can choose the weights for point sources / plane waves.
+
+2) now you can choose different types of colorbar (symmetric or non-symmetric).
+
+
+Version 1.31
+
+1) fix the bug: unify the font size of different xlabels on the App (interior simulation).
+
+2） remove the titles "Simulation Setup", "Ground Truth", "Estimation" and "Errors" from the saved figures.
+
+3） remove the units of colorbars when choosing "Linear Plots", keep the unit "dB" when choosing "dB Plots"
+
+
+
+Version 1.4
+
+1) Create another button called "Save Data" to save some specific matrices.
+   In that way, the original "Save Plots" button will only save the four plots.
+
+2) Add a script which allows you to call the App from outside and run simulation with different setups.
+
+
+Version 1.5
+
+1) Now you can input negative values for "Src x-coord", "Src y-coord", "Src z-coord", and "Src Weights".
+2) Now you can input complex numbers for "Src Weights".
